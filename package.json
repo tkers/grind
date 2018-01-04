@@ -1,0 +1,17 @@
+{
+  "name": "grind",
+  "private": true,
+  "version": "0.0.1",
+  "description": "A game about coffee",
+  "main": "index.js",
+  "repository": "https://github.com/Lapixx/grind.git",
+  "author": "Tijn Kersjes <tijn@divbyzero.nl>",
+  "scripts": {
+    "test": "tape -r babel-register lib/**/*.spec.js"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "tape": "^4.8.0"
+  }
+}
