@@ -1,0 +1,6 @@
+# node
+node_modules/
+yarn-error.log
+
+# osx
+.DS_Store
