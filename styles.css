@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700');
+
+body {
+  background-color: #F0F0F0;
+  color: #3C3B58;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 24px;
+  line-height: 1.4;
+}
+
+b {
+  color: #1D1716;
+}
+
+button {
+  font-size: 16px;
+  background-color: #FFC466;
+  color: #3C3B58;
+  text-shadow: 0 1px 0 #FFE8B2;
+  padding: 4px 16px;
+  margin-left: 16px;
+  border-radius: 32px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: #F79060;
+}
+
+button:disabled {
+  background-color: #FFC466;
+  color: #3C3B58;
+  opacity: 0.25;
+  cursor: default;
+}
