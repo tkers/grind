@@ -6,10 +6,25 @@ body {
   font-family: 'Alegreya Sans', sans-serif;
   font-size: 24px;
   line-height: 1.4;
+  margin: 0;
 }
 
 b {
   color: #1D1716;
+  text-shadow: 0 1px 0 #FFFFFF;
+}
+
+.item {
+  background-color: #FFC466;
+  border-radius: 8px;
+  padding: 4px;
+  margin: 16px;
+}
+
+.description {
+  background-color: #FFE8B2;
+  border-radius: 8px;
+  padding: 16px;
 }
 
 button {
@@ -17,9 +32,9 @@ button {
   background-color: #FFC466;
   color: #3C3B58;
   text-shadow: 0 1px 0 #FFE8B2;
+  width: 100%;
   padding: 4px 16px;
-  margin-left: 16px;
-  border-radius: 32px;
+  border-radius: 8px;
   border: none;
   outline: none;
   cursor: pointer;
