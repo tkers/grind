@@ -9,26 +9,28 @@ body {
   margin: 0;
 }
 
-b {
-  color: #1D1716;
-  text-shadow: 0 1px 0 #FFFFFF;
-}
-
 .item {
   background-color: #FFC466;
   border-radius: 8px;
   padding: 4px;
   margin: 16px;
+  box-shadow: 0 2px 0 #EEB355;
 }
 
-.description {
+.item .description {
   background-color: #FFE8B2;
   border-radius: 8px;
   padding: 16px;
 }
 
+.item .description b {
+  color: #1D1716;
+  text-shadow: 0 1px 0 #FFFFFF;
+}
+
 button {
   font-size: 16px;
+  font-weight: bold;
   background-color: #FFC466;
   color: #3C3B58;
   text-shadow: 0 1px 0 #FFE8B2;
@@ -49,4 +51,12 @@ button:disabled {
   color: #3C3B58;
   opacity: 0.25;
   cursor: default;
+}
+
+.description .info {
+  font-size: 18px;
+  font-style: italic;
+  border-top: 1px dashed #FFC466;
+  padding-top: 8px;
+  margin-top: 8px;
 }
