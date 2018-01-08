@@ -28,6 +28,21 @@ body {
   text-shadow: 0 1px 0 #FFFFFF;
 }
 
+.item.primary {
+  background-color: #1D1716;
+  box-shadow: none;
+}
+
+.item.primary .description {
+  background-color: #3C3B58;
+  color: #FEECCC;
+}
+
+.item.primary .description b {
+  color: #FFFFFF;
+  text-shadow: 0 1px 0 #1D1716;
+}
+
 button {
   font-size: 16px;
   font-weight: bold;
@@ -51,6 +66,21 @@ button:disabled {
   color: #3C3B58;
   opacity: 0.25;
   cursor: default;
+}
+
+.item.primary button {
+  background-color: #1D1716;
+  color: #FFC466;
+  text-shadow: 0 1px 0 #3C3B58;
+}
+
+.item.primary button:active {
+  background-color: #000000;
+}
+
+.item.primary button:disabled {
+  background-color: #1D1716;
+  color: #FFC466;
 }
 
 .description .info {
