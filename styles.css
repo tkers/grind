@@ -24,6 +24,12 @@ button {
   box-shadow: 0 2px 0 #EEB355;
 }
 
+.item.sticky {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 16px;
+}
+
 .item .inner {
   background-color: #FFE8B2;
   border-radius: 8px;
