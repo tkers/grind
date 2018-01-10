@@ -24,13 +24,13 @@ button {
   box-shadow: 0 2px 0 #EEB355;
 }
 
-.item .description {
+.item .inner {
   background-color: #FFE8B2;
   border-radius: 8px;
   padding: 16px;
 }
 
-.item .description b {
+.item .inner b {
   color: #1D1716;
   text-shadow: 0 1px 0 #FFFFFF;
 }
@@ -40,12 +40,12 @@ button {
   box-shadow: none;
 }
 
-.item.primary .description {
+.item.primary .inner {
   background-color: #3C3B58;
   color: #FEECCC;
 }
 
-.item.primary .description b {
+.item.primary .inner b {
   color: #FFFFFF;
   text-shadow: 0 1px 0 #1D1716;
 }
@@ -91,7 +91,7 @@ button:disabled {
   color: #FFC466;
 }
 
-.description .info {
+.inner .description {
   font-size: 18px;
   font-style: italic;
   border-top: 1px dashed #FFC466;
