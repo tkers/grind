@@ -6,6 +6,7 @@
   "main": "dist/index.js",
   "repository": "https://github.com/Lapixx/grind.git",
   "author": "Tijn Kersjes <tijn@divbyzero.nl>",
+  "license": "MIT",
   "scripts": {
     "build": "rollup -c"
   },
