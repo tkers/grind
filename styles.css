@@ -28,6 +28,7 @@ button {
   position: sticky;
   position: -webkit-sticky;
   top: 16px;
+  z-index: 10;
 }
 
 .item .inner {
