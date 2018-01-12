@@ -24,11 +24,12 @@ button {
   box-shadow: 0 2px 0 #EEB355;
 }
 
-.item.sticky {
+.item.sticky, .item.primary.sticky {
   position: sticky;
   position: -webkit-sticky;
   top: 16px;
   z-index: 10;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
 .item .inner {
@@ -70,6 +71,10 @@ button {
   outline: none;
   cursor: pointer;
   touch-action: manipulation;
+}
+
+button:hover {
+  color: #000000;
 }
 
 button:active {
