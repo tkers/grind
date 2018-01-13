@@ -31,7 +31,7 @@ button {
 .item.sticky, .item.primary.sticky {
   position: sticky;
   position: -webkit-sticky;
-  top: 16px;
+  top: 10px;
   z-index: 10;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
@@ -49,6 +49,7 @@ button {
 
 .item.primary {
   background-color: #1D1716;
+  margin: 10px;
   box-shadow: none;
 }
 
