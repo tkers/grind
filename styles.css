@@ -16,6 +16,10 @@ button {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0.2);
 }
 
+.item, .inner, button {
+  transition: all 0.2s;
+}
+
 .item {
   background-color: #FFC466;
   border-radius: 8px;
@@ -58,6 +62,24 @@ button {
   text-shadow: 0 1px 0 #1D1716;
 }
 
+.item.unavailable {
+  background-color: #B3B3B3;
+  box-shadow: 0 2px 0 #A1A1A1;
+}
+
+.item.unavailable .inner {
+  background-color: #D9D9D9;
+}
+
+.item.unavailable .inner .description {
+  border-top: 1px dashed #B3B3B3;
+}
+
+.item.unavailable button {
+  background-color: #B3B3B3;
+  text-shadow: 0 1px 0 #D9D9D9;
+}
+
 button {
   font-size: 16px;
   font-weight: bold;
@@ -82,7 +104,6 @@ button:active {
 }
 
 button:disabled {
-  background-color: #FFC466;
   color: #3C3B58;
   opacity: 0.25;
   cursor: default;

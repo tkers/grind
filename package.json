@@ -14,7 +14,7 @@
     "babel-core": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
-    "grindery": "Lapixx/grindery#7fc6d4d5bf19dea2c38de2d8cecd39731767d779",
+    "grindery": "Lapixx/grindery#22335c57f5d9d682f039c2d934838c55703249c1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "rollup": "^0.52.1",
