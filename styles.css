@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700');
+@import url("https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700");
 
 body {
-  background-color: #F0F0F0;
-  color: #3C3B58;
-  font-family: 'Alegreya Sans', sans-serif;
+  background-color: #c6bcb9;
+  color: #2b2826;
+  font-family: "Alegreya Sans", sans-serif;
   font-size: 24px;
   line-height: 1.4;
   margin: 0;
@@ -13,22 +13,25 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 button {
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.2);
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-.item, .inner, button {
+.item,
+.inner,
+button {
   transition: all 0.2s;
 }
 
 .item {
-  background-color: #FFC466;
-  border-radius: 8px;
+  background-color: #e86539;
+  border-radius: 12px;
   padding: 4px;
   margin: 16px;
-  box-shadow: 0 2px 0 #EEB355;
+  box-shadow: 0 2px 0 #a05137;
 }
 
-.item.sticky, .item.primary.sticky {
+.item.sticky,
+.item.primary.sticky {
   position: sticky;
   position: -webkit-sticky;
   top: 10px;
@@ -37,56 +40,56 @@ button {
 }
 
 .item .inner {
-  background-color: #FFE8B2;
+  background-color: #e58e71;
   border-radius: 8px;
   padding: 16px;
 }
 
 .item .inner b {
-  color: #1D1716;
-  text-shadow: 0 1px 0 #FFFFFF;
+  color: #2b2826;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
 }
 
 .item.primary {
-  background-color: #1D1716;
+  background-color: #2b2826;
   margin: 10px;
   box-shadow: none;
 }
 
 .item.primary .inner {
-  background-color: #3C3B58;
-  color: #FEECCC;
+  background-color: #2b2826;
+  color: #948984;
 }
 
 .item.primary .inner b {
-  color: #FFFFFF;
-  text-shadow: 0 1px 0 #1D1716;
+  color: #ffffff;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
 }
 
 .item.unavailable {
-  background-color: #B3B3B3;
-  box-shadow: 0 2px 0 #A1A1A1;
+  background-color: #b3b3b3;
+  box-shadow: 0 2px 0 #a1a1a1;
 }
 
 .item.unavailable .inner {
-  background-color: #D9D9D9;
+  background-color: #cac5c4;
 }
 
 .item.unavailable .inner .description {
-  border-top: 1px dashed #B3B3B3;
+  border-top: 1px dashed #b3b3b3;
 }
 
 .item.unavailable button {
-  background-color: #B3B3B3;
-  text-shadow: 0 1px 0 #D9D9D9;
+  background-color: #b3b3b3;
+  text-shadow: 0 1px 0 #d9d9d9;
 }
 
 button {
   font-size: 16px;
   font-weight: bold;
-  background-color: #FFC466;
-  color: #3C3B58;
-  text-shadow: 0 1px 0 #FFE8B2;
+  background-color: #e86539;
+  color: #4c271a;
+  text-shadow: 0 1px 0 #e58e71;
   width: 100%;
   padding: 4px 16px;
   border-radius: 8px;
@@ -101,19 +104,20 @@ button:hover {
 }
 
 button:active {
-  background-color: #F79060;
+  color: #000000;
+  background-color: #cf4c20;
 }
 
 button:disabled {
-  color: #3C3B58;
+  color: #333333;
   opacity: 0.25;
   cursor: default;
 }
 
 .item.primary button {
-  background-color: #1D1716;
-  color: #FFC466;
-  text-shadow: 0 1px 0 #3C3B58;
+  background-color: #2b2826;
+  color: #e86539;
+  text-shadow: 0 1px 0 #4c271a;
 }
 
 .item.primary button:active {
@@ -121,14 +125,14 @@ button:disabled {
 }
 
 .item.primary button:disabled {
-  background-color: #1D1716;
-  color: #FFC466;
+  background-color: #2b2826;
+  color: #e86539;
 }
 
 .inner .description {
   font-size: 18px;
   font-style: italic;
-  border-top: 1px dashed #FFC466;
+  border-top: 1px dashed #e86539;
   padding-top: 8px;
   margin-top: 8px;
 }
