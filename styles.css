@@ -9,6 +9,11 @@ body {
   margin: 0;
 }
 
+main {
+  max-width: 420px;
+  margin: 0 auto;
+}
+
 * {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
